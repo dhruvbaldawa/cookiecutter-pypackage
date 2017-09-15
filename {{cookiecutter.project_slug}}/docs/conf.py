@@ -201,7 +201,7 @@ html_sidebars = {
 
 html_theme_options = {
     'github_user': '{{ cookiecutter.github_username }}',
-    'github_repo': '{{ cookiecutter.project_slug }}',
+    'github_repo': '{{ cookiecutter.github_repo }}',
     'github_button': True,
     'github_banner': True,
     'code_font_size': '0.8em',

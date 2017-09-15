@@ -12,9 +12,9 @@ To install {{ cookiecutter.project_name }}, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install {{ cookiecutter.project_slug }}
+    $ pip install {{ cookiecutter.github_repo }}
 
-This is the preferred method to install {{ cookiecutter.project_name }}, as it will always install the most recent stable release. 
+This is the preferred method to install {{ cookiecutter.project_name }}, as it will always install the most recent stable release.
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+    $ git clone git://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/tarball/master
+    $ curl  -OL https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
-.. _tarball: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/tarball/master
+.. _Github repo: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}
+.. _tarball: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo }}/tarball/master
