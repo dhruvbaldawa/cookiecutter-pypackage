@@ -2,6 +2,7 @@
   "full_name": "Dhruv Baldawa",
   "email": "dhruv@dhruvb.com",
   "github_username": "dhruvbaldawa",
+  "github_repo": "random",
   "project_name": "Python Boilerplate",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
