@@ -28,6 +28,7 @@ setup_requirements = [
 test_requirements = [
 {%- if cookiecutter.use_pytest == 'y' %}
     'pytest',
+    'pytest-cov==2.5.1',
 {%- endif %}
     # TODO: put package test requirements here
 ]
