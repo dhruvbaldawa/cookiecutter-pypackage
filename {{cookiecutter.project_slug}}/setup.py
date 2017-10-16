@@ -42,7 +42,7 @@ test_requirements = [
 } %}
 
 setup(
-    name='{{ cookiecutter.project_slug }}',
+    name='{{ cookiecutter.github_repo }}',
     version='{{ cookiecutter.version }}',
     description="{{ cookiecutter.project_short_description }}",
     long_description=readme + '\n\n' + history,
