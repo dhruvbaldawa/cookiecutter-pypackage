@@ -5,6 +5,7 @@ Table of contents
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:
 
    index
    usage
@@ -15,7 +16,6 @@ Table of contents
 
 Indices and tables
 ==================
-
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
